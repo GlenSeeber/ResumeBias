@@ -45,7 +45,7 @@ def randomName(gender, race):
 
     return name
 
-def fillName(name):
+def fillName(name, gender, race):
     # makes a copy of resume.json (the template), pastes values into it on
     # output.json
 
@@ -57,6 +57,8 @@ def fillName(name):
     # change whatever values you want
     print(name)
     myJson["Name"] = name
+    myJson["Gender"] = gender
+    myJson["Race"] = race
 
     # open/create an output file, which will have actual values inputted
     f = open("output.json", "w")
@@ -68,5 +70,6 @@ id = randomId()
 
 id = liMaker(id)
 
+name = randomName(id[0], id[1])
 
-fillName(randomName(id[0], id[1]))
+fillName(name, id[0], id[1])
