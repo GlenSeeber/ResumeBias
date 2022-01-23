@@ -8,6 +8,10 @@ import random
 import shutil
 import json
 
+def liMaker(string):
+    li = list(string.split(', '))
+    return li
+
 def randomId():
     # 2 genders * 3 races = 6 options
     # pick a random number 1-6
@@ -25,7 +29,7 @@ def randomId():
     raceIndex = {0: "White", 1:"Black", 2:"Latino"}
     race = raceIndex[myRand]
 
-    return gender, race
+    return gender+', '+race
 
 def randomName(gender, race):
     # picks a random name based on the race and gender given by
@@ -60,4 +64,9 @@ def fillName(name):
     f.close()
 
 #program
-randomName("Feminine", "Latino")
+id = randomId()
+
+id = liMaker(id)
+
+
+fillName(randomName(id[0], id[1]))
