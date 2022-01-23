@@ -65,11 +65,15 @@ def fillName(name, gender, race):
     json.dump(myJson, f)
     f.close()
 
+def coverUp():
+    # covers up the top of a resume with a fake name and identity
+    id = randomId()
+
+    id = liMaker(id)
+
+    name = randomName(id[0], id[1])
+
+    fillName(name, id[0], id[1])
+
 #program
-id = randomId()
 
-id = liMaker(id)
-
-name = randomName(id[0], id[1])
-
-fillName(name, id[0], id[1])
