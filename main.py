@@ -7,6 +7,25 @@ import random
 import shutil
 import json
 
+def randomizer():
+    # 2 genders * 3 races = 6 options
+    # pick a random number 1-6
+    # numbers correlate in this order:
+    # White man, Black man, Latino man, White woman, Black woman, Latino Woman
+    
+    r = random.randint(0, 5)
+    if (r <= 2):
+        gender = "Masculine"
+
+    elif (r >= 3):
+        gender = "Feminine"
+        r -= 3
+
+    raceIndex = {0: "White", 1:"Black", 2:"Latino"}
+    race = raceIndex[r]
+
+
+
 #open template file
 f = open("resume.json", "r")
 myJson = json.load(f)
