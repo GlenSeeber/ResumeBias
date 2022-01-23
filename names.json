@@ -1,0 +1,12 @@
+{
+    "Masculine":{
+        "White":["Noah", "James", "Levi", "Carter", "Aiden"],
+        "Black":["Brandon", "Daniel", "Elijah", "Jordan", "Cameron"],
+        "Latino":["Sebastian", "Diego", "Samuel", "David", "Gabriel"]
+    },
+    "Feminine":{
+        "White":["Emma", "Riley", "Zoe", "Ella", "Brianna"],
+        "Black":["Angel", "Aniyah", "Chloe", "Destiny", "Jayla"],
+        "Latino":["Sofia", "Daniela", "Sara", "Maria Jose", "Emily"]
+    }
+}
