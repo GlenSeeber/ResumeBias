@@ -43,7 +43,6 @@ def randomName(gender, race):
 
     name = myJson.get(str(gender), {}).get(str(race), {})[myRand]
 
-    print(name)
     return name
 
 def fillName(name):
@@ -56,7 +55,8 @@ def fillName(name):
     f.close()
 
     # change whatever values you want
-    myJson["name"] = name
+    print(name)
+    myJson["Name"] = name
 
     # open/create an output file, which will have actual values inputted
     f = open("output.json", "w")
