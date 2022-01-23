@@ -1,0 +1,20 @@
+{
+    "Name":"",
+    "Race":"",
+    "Gender":"",
+    "Summary":"Advanced level IT project manager with 15 years' experience who can perform under nominal direction to implement new technology applications, new program initiatives or special one-time-only projects. This will include coordinating project scheduling, budgeting and performing administrative tasks associated with project management functions.",
+    "Skills":
+    [
+        "IT Project Management",
+        "Sharepoint"
+    ],
+    "Education":["Hawaii Western\n- Bachelor of Science/Trade Technology"],
+    "Experiences":
+    [
+        "Crane & Jenkins International, Senior IT Project Manager\n  - Overseeing the successful automation of the prerequisites in the quoting system Firespond (FPX)/n  - Responsible for defining project scope, goals and deliverables to plan reasonable deadlines for success\n  - Ensuring a high level of fiscal control and accountability for project budget\n  - Exerting strong influencing skills to impact choices on immediate and long-term directions",
+
+        "River Tech, IT Project Manager\n  - Engaged in creating a system that eliminated errors during quoting, enhancing the customer experience\n  - Conducted detailed process analysis to understand how business practices are supported by technology",
+        
+        "Retail Ocean, IT Project Manager - Trainee\n  - Engaged in business and management principles involved in strategic planning, resource allocation, and coordination of people and resources\n  - Assisted in the development of full-scale project plans for approved projects and associated communications documents\n  - Led multiple data warehouse projects integrating ERP systems (E1 and SAP), per PMO guidelines"
+    ]   
+}

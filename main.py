@@ -3,9 +3,7 @@
 # 
 # Name (str), Age (int), Skills [list], Experiences [list], Education [list], Additonal Notes (str)
 
-from inspect import GEN_CLOSED
 import random
-import shutil
 import json
 
 def liMaker(string):
